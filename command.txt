@@ -1,0 +1,11 @@
+1.sudo useradd user1 –g 1001
+2.sudo usermod user1 -g 1002
+3.mkdir {os-concepts,ubuntu-is-the-best}
+4.ls -l
+5.chmod 640 file1.txt,file2.txt
+6.sudo groupadd –g 1010 newgroup
+7.sudo chown :newgroup file.txt,file2.txt
+8.sudo usermod –a –G newgroup user1
+9.echo "crash" > ~/os-concept/crash.in
+10.find ~/ -name "crash.in"
+11.find ~/ -name "crash.in" -print0 | xargs -0 sed -i 's/crash/broken/g'
